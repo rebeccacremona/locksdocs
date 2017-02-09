@@ -76,53 +76,54 @@ selections from http://www.adpn.org/wiki/LOCKSS_Software
 > /cache0/gamma/cache/m/bpldb.bplonline.org/http/adpn/load/Cartography/000400-000599/000404/tif/000404.tif/#content/current
 > current is a raw byte file. If the content is binary, the file is binary. If the content is text, the file is text. In order to understand the type of file current is you should examine current.props.
 > /cache0/gamma/cache/m/bpldb.bplonline.org/http/adpn/load/Cartography/000400-000599/000404/tif/000404.tif/#content/current.props describes the bytes (HTTP headers, LOCKSS specific headers)
-> /cache0/gamma/cache/m
->  #au_id_file
->  #au_state.xml
->  #id_agreement.xml
->  #no_au_peers
->  #node_props
->  #nodestate.xml
->  bpldb.bplonline.org/
->    http/
->      #node_props
->      adpn/
->        #node_props
->        load/
->          #node_props
->          Cartography/
->            #node_props
->            000400-000599/
->              #agreement
->              #node_props
->              #content/
->              manifest.html/
->              000404/
->                #agreement
->                #node_props
->                #content/
->                tif/
->                  #agreement
->                  #node_props
->                  #content/
->                  000404.tif/
->                    #agreement
->                    #node_props
->                    #content/
->                      current
->                      current.props
+ ```/cache0/gamma/cache/m
+  #au_id_file
+  #au_state.xml
+  #id_agreement.xml
+  #no_au_peers
+  #node_props
+  #nodestate.xml
+  bpldb.bplonline.org/
+    http/
+      #node_props
+      adpn/
+        #node_props
+        load/
+          #node_props
+          Cartography/
+            #node_props
+            000400-000599/
+              #agreement
+              #node_props
+              #content/
+              manifest.html/
+              000404/
+                #agreement
+                #node_props
+                #content/
+                tif/
+                  #agreement
+                  #node_props
+                  #content/
+                  000404.tif/
+                    #agreement
+                    #node_props
+                    #content/
+                      current
+                      current.props
+```
 
 ### Revisions
 > Each revision is stored with a full copy of the bytes. current and current.props are renamed to 1 and 1.props. Each revision can always be retrieved. Only the `current` file participates in preservation activities.
-> /cache0/gamma/cache/m/bpldb.bplonline.org/http/adpn/load/Cartography/000400-000599/000404/tif/000404.tif/
->   #content/
->     1
->     1.props
->     2
->     2.props
->     current
->     current.props
->
+``` /cache0/gamma/cache/m/bpldb.bplonline.org/http/adpn/load/Cartography/000400-000599/000404/tif/000404.tif/
+   #content/
+     1
+     1.props
+     2
+     2.props
+     current
+     current.props
+```
 > See #Content Crawler and Revisions to understand how LOCKSS Web crawler handles files that differ in metadata but are identical.
 
 ### Starting and Stopping the LOCKSS daemon
@@ -137,38 +138,39 @@ selections from http://www.adpn.org/wiki/LOCKSS_Software
 > logrotate /etc/logrotate.d/lockss
 
 ### Configuration Files
->
-> Primary Configuration files
-> http://props.lockss.org:8001/adpn/lockss.xml
-> /etc/lockss/config.dat
-> /home/lockss/local.txt
-> /cache0/gamma/config/expert_config.txt
-> /cache0/gamma/config/au.txt
-> Additional Configuration files
-> /cache0/gamma/config/ui_ip_access.txt
-> /cache0/gamma/config/proxy_ip_access.txt
-> /cache0/gamma/config/content_servers_config.txt
-> Configuration parameters are listed
-> http://www.lockss.org/lockssdoc/gamma/daemon/paramdoc.html
-> http://www.lockss.org/lockssdoc/gamma/daemon/paramdoc.txt
+Primary Configuration files
+  - http://props.lockss.org:8001/adpn/lockss.xml
+  - /etc/lockss/config.dat
+  - /home/lockss/local.txt
+  - /cache0/gamma/config/expert_config.txt
+  - /cache0/gamma/config/au.txt
+  - Additional Configuration files
+  - /cache0/gamma/config/ui_ip_access.txt
+  - /cache0/gamma/config/proxy_ip_access.txt
+  - /cache0/gamma/config/content_servers_config.txt
+  - Configuration parameters are listed
+  - http://www.lockss.org/lockssdoc/gamma/daemon/paramdoc.html
+  - http://www.lockss.org/lockssdoc/gamma/daemon/paramdoc.txt
 
 ### Crawl Windows
 >Crawl windows can be set to control when the LOCKSS daemon should start and end crawls. The LOCKSS Daemon will disallow crawls when outside of the crawl window. The LOCKSS Daemon will also abort in-progress crawls that overrun the window. For tight windows, examine the org.lockss.crawler.startCrawlsInterval parameter and the au_def_pause_time in the plugin definition.
-><entry>
->  <string>au_crawlwindow_ser</string>
->  <org.lockss.daemon.CrawlWindows-Interval>
->      <start>
->        <time>1427940044207</time>
->        <timezone>America/Chicago</timezone>
->      </start>
->     <end>
->        <time>1427882384207</time>
->        <timezone>America/Chicago</timezone>
->     </end>
->     <fieldMask>3</fieldMask>
->     <timeZoneId>US/Central</timeZoneId>
->  </org.lockss.daemon.CrawlWindows-Interval>
-> </entry>
+```
+<entry>
+  <string>au_crawlwindow_ser</string>
+  <org.lockss.daemon.CrawlWindows-Interval>
+      <start>
+        <time>1427940044207</time>
+        <timezone>America/Chicago</timezone>
+      </start>
+     <end>
+        <time>1427882384207</time>
+        <timezone>America/Chicago</timezone>
+     </end>
+     <fieldMask>3</fieldMask>
+     <timeZoneId>US/Central</timeZoneId>
+  </org.lockss.daemon.CrawlWindows-Interval>
+ </entry>
+ ```
 
 ### Content Crawler and Revisions
 >[BaseUrlCacher.java](http://lockss.cvs.sourceforge.net/viewvc/lockss/lockss-daemon/src/org/lockss/plugin/base/BaseUrlCacher.java?view=log)
@@ -185,6 +187,7 @@ Looks helpful!
 https://plnwiki.lockss.org/
 ------------------------
 (I can't seem to get a list of all the pages on this wiki in the normal way. Here is a list generated by the wiki api. Included for the record; visiting each in turn.)
+```
 <?xml version="1.0"?>
 <api>
   <query>
@@ -259,7 +262,7 @@ https://plnwiki.lockss.org/
     </allpages>
   </query>
 </api>
-
+```
 
 LOCKSS Technical Manual
 ------------------------
