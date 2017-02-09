@@ -1,6 +1,12 @@
+clockss
+=======
+https://clockss.org/clockss/Home
+
+Should we just join them, instead of doing this ourselves?
+
 from clockss doc
-================
-CLOCKSS and LOCKSS??? CLOCKSS has very clearly written documentation.
+----------------
+CLOCKSS has very clearly written documentation.
 all pages: https://documents.clockss.org/index.php?title=Special:AllPages
 
 (This is a work in progress)
