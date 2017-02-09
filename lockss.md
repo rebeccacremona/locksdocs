@@ -2,8 +2,6 @@ LOCKSS CentOS 6, custom image installation instructions
 -------------------------------------------------------
 https://www.lockss.org/docs/LOCKSS-Linux6-Install.pdf
 
-(_RLC comments in italics_)
-
 pg 5) 64-bit version of CentOS Basic Server installation
 
 pg 5) We recommend installing LOCKSS on a dedicated workstation, server or virtual machine with the following characteristics:
