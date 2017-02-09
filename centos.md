@@ -119,9 +119,9 @@ In that article, if relevant, see especially the subheading "Raid Math"
 Centos unofficial guides
 ------------------------
 
-[Automatic Security Upgrades 1](https://serversforhackers.com/video/automatic-security-updates-centos)
-[Automatic Security Upgrades 2](https://www.stephenrlang.com/2016/02/automatic-package-updates-on-centos-7/)
-[Automatic Security Upgrades 3](https://linuxaria.com/howto/enabling-automatic-updates-in-centos-7-and-rhel-7)
+-  [Automatic Security Upgrades 1](https://serversforhackers.com/video/automatic-security-updates-centos)
+-  [Automatic Security Upgrades 2](https://www.stephenrlang.com/2016/02/automatic-package-updates-on-centos-7/)
+-  [Automatic Security Upgrades 3](https://linuxaria.com/howto/enabling-automatic-updates-in-centos-7-and-rhel-7)
 
 
 Centos "service" command, and other results of migration to systemd
