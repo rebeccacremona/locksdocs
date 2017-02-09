@@ -5,3 +5,5 @@ RLC supplementary reading/resources
 -  http://searchstorage.techtarget.com/definition/RAID
 -  https://en.wikipedia.org/wiki/Virtual_IP_address
 -  https://www.lockss.org/about/how-it-works/
+-  https://en.wikipedia.org/wiki/Network-attached_storage
+-  https://www.qnap.com/en/product/model.php?II=142
