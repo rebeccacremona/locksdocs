@@ -126,11 +126,10 @@ selections from http://www.adpn.org/wiki/LOCKSS_Software
 
 ### Starting and Stopping the LOCKSS daemon
 > CentOS 7 Version
-``` systemctl enable lockss
-    systemctl start lockss
-    systemctl restart lockss
-    systemctl stop lockss
-```
+>  -  systemctl enable lockss
+>  -  systemctl start lockss
+>  -  systemctl restart lockss
+>  -  systemctl stop lockss```
 
 ### Log Rotate
 > Logs are in /var/log/lockss
