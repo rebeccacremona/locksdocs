@@ -2,11 +2,10 @@ clockss
 =======
 https://clockss.org/clockss/Home
 
-Should we just join them, instead of doing this ourselves?
+Should we just join them?
 
-from clockss doc
-----------------
-CLOCKSS has very clearly written documentation.
+clockss docs rocks!!
+----------------------
 all pages: https://documents.clockss.org/index.php?title=Special:AllPages
 
 (This is a work in progress)
