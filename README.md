@@ -4,7 +4,7 @@ research about LOCKSS
 
 (_RLC comments in italics_)
 
-Purpose of LOCKSS in Perma
+Purpose of LOCKSS for Perma
 ---------------------------
 -  geographically distributed backup
 -  protection against bit rot
