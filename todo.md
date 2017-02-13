@@ -1,0 +1,1 @@
+- check up on how Perma indicates an AU has been updated. ("Use If-Modified-Since and HTTP 304 to better identify content updates")
