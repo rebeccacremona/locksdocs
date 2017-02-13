@@ -2,7 +2,22 @@ clockss
 =======
 https://clockss.org/clockss/Home
 
+"CLOCKSS is a not-for-profit joint venture between the world’s leading academic publishers and research libraries whose mission is to build a sustainable, international, and geographically distributed dark archive with which to ensure the long-term survival of Web-based scholarly publications for the benefit of the greater global research community"
+https://clockss.org/clocksswiki/files/CLOCKSS_Overview_-_basic.pdf
+
+| CLOCKSS has achieved a unique consensus among the world’s leading scholarly publishers, who have agreed to make their content available for free, under a creative commons license, in the event that they can no longer supply it. CLOCKSS is thus the only way to make sure that, no matter what happens in the publishing market, scholarly research will always remain in the hands of scholars.
+| 
+| The archive is distributed across 12 geopolitically and geographically diverse long-lived steward libraries that have agreed to take on an archival role on behalf of the wider international community, in the United States, Canada, Hong Kong, Japan, Australia, Scotland, and growing. CLOCKSS is committed to the very long term: to become a safe haven for scholarly content from all corners of the world, including underserved scholarly communities and those who cannot afford to archive their materials on their own.
+
 Should we just join them?
+
+considerations for joining clockss
+----------------------------------
+- They focus on journals and books; we don't immediatelly fit their model. Practically, they [require metadata](https://clockss.org/clocksswiki/files/File_Transfer_Guidelines_-_CLOCKSS.pdf) that assumes you are describing a journal or a book (issn/isbn, doi, etc.) If that's a technical requirement, rather than policy, we might not be able to be incorporated, at least without development work on their end
+- But, even if that's the case, perhaps we could contribute that effort (which might make more sense than putting effort into duplicating their tech setup). 
+- already a network of libraries, already geographically distributed, already technically sound, people have already heard of it and trust it, already governed by clear, detailed ethics
+- would provide a natural way to extend our registrar network, and get more publishers on board.
+
 
 clockss docs rocks!!
 ----------------------
