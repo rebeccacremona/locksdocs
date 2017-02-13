@@ -1,1 +1,2 @@
 - check up on how Perma indicates an AU has been updated. ("Use If-Modified-Since and HTTP 304 to better identify content updates")
+- find out how much we need to learn about RAID (https://en.wikipedia.org/wiki/Standard_RAID_levels#Comparison)
