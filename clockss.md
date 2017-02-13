@@ -60,3 +60,4 @@ Potential benefits
 - already a network of libraries, already geographically distributed, already technically sound, people have already heard of it and trust it, already governed by clear, detailed ethics
 - would provide a natural way to extend our registrar network, and get more scholarly publishers on board w/ Perma.
 - we would not have to implement/maintain our own custom LOCKSS boxes; the Perma LOCKSS java plugin would be it
+- people are committed to the other content protected via CLOCKSS. We wouldn't have to convince anybody to be invested enough in Perma to promise they would continue to look after our content, rather than just plugging in the LOCKSS box and forgetting about it.
