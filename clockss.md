@@ -11,15 +11,19 @@ https://clockss.org/clocksswiki/files/CLOCKSS_Overview_-_basic.pdf
 
 The list of participating publishers (https://clockss.org/clockss/Participating_Publishers) and libraries  (https://clockss.org/clockss/Participating_Libraries) are both impressive
 
-This sounds like it would be affordable:
+On the surface, this sounds like it would be affordable:
 > The 2017 annual contribution below covers e-journals, e-books, and any other materials you’d like to archive.
 >
 > Total Publishing Revenue: Under $250,000
 > Annual Contribution: $227
 >
+
+But eventually, we realized this would be prohibitively expensive, if they charged us like they charge for articles:
 > Journal front file ingest is $0.25/article, with no charge for the first 100 articles. For e-books and other monographs, frontlist ingest is $3.00/book, with no charge for the first 10 e-books. Backfile articles are $0.15 and backlist books $2.00.
 
-Hmm. Except maybe the setup fee. (But, that fee assumes they are writing the plugin, which we have already: "Initial Set-up Fee Set-up Fee: Minimum of $7,500"
+10,000 links (=about two weeks), at the rate of 0.25 each, is $2,500. Yikes.
+
+They also mention a setup fee, which  assumes they are writing the plugin, which we have already: "Initial Set-up Fee Set-up Fee: Minimum of $7,500"
 
 Potential Problems
 ----------------------------------
