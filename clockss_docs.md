@@ -191,9 +191,13 @@ Security, Reliability, and Maintainability
 -------------------------------------------
 https://documents.clockss.org/index.php?title=CLOCKSS:_Threats_and_Mitigations
 
-As above, seems like an impressive analysis.
+> Because of its nature as a tightly-controlled dark archive configures the technology in ways that further reduce risk as compared to the Global LOCKSS Network for which the technology was originally designed. The configuration of the CLOCKSS network is described in CLOCKSS: Box Operations but briefly the additional defenses include:
+>
+> -  Implementing a large number (currently 12) of CLOCKSS boxes each holding the entire content of the archive.
+> -  Ensuring that, after an initial period, each CLOCKSS box's operating system is configured to prevent write or administrative access except by staff at the host institution.
+> -  Securing communication among authorized CLOCKSS boxes using SSL certificate checks at both ends of each connection.
+> -  Preventing dissemination of content from CLOCKSS boxes except during an approved trigger event (see CLOCKSS: Extracting Triggered Content).
 
-TODO: look much more closely at what they are doing.
 
 Record Keeping
 ---------------
