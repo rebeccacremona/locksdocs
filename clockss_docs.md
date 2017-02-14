@@ -16,14 +16,6 @@ https://documents.clockss.org/index.php?title=LOCKSS:_Basic_Concepts
 
 More on this, likely useful for the discussion with our board about the word "archive", is here: https://documents.clockss.org/index.php?title=LOCKSS:_Format_Migration
 
-https://documents.clockss.org/index.php?title=CLOCKSS:_Designated_Community
----------------------------------------------------------------------------
->The CLOCKSS archive is a dark archive. No Consumers "interact with [CLOCKSS] services to find preserved information of interest and to access that information in detail". Content is not disseminated in response to requests from Consumers, but only as a consequence of the CLOCKSS Board declaring a trigger event. It is not disseminated to Consumers, but to re-publishing systems that are not themselves part of the Archive. The dissemination process is a transaction between the CLOCKSS archive and a re-publishing platform; it does not depend on a request from a Consumer nor does it deliver Content Information directly to a Consumer. If any Consumer ever accesses content that was preserved by the CLOCKSS archive, it will be from one of these re-publishing systems. The CLOCKSS archive will not be involved in this transaction, between the eventual Consumer and the re-publishing system, in any way.
-
->The CLOCKSS Archive delivers services to each of its Interested Parties by providing a sustainable, geographically distributed dark archive that ensures the long-term survival of Web-based, scholarly publications
-
-_this sounds a lot like our idea of what the Perma LOCKSS network will be_
-
 Hardware, Software, Network, Ops
 --------------------------------
 -  https://documents.clockss.org/index.php?title=CLOCKSS:_Hardware_and_Software_Inventory
