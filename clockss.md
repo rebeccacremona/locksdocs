@@ -1,10 +1,19 @@
 clockss
 =======
-https://clockss.org/clockss/Home
 
 "CLOCKSS is a not-for-profit joint venture between the world’s leading academic publishers and research libraries whose mission is to build a sustainable, international, and geographically distributed dark archive with which to ensure the long-term survival of Web-based scholarly publications for the benefit of the greater global research community"
 https://clockss.org/clocksswiki/files/CLOCKSS_Overview_-_basic.pdf
 
+https://documents.clockss.org/index.php?title=CLOCKSS:_Designated_Community
+---------------------------------------------------------------------------
+>The CLOCKSS archive is a dark archive. No Consumers "interact with [CLOCKSS] services to find preserved information of interest and to access that information in detail". Content is not disseminated in response to requests from Consumers, but only as a consequence of the CLOCKSS Board declaring a trigger event. It is not disseminated to Consumers, but to re-publishing systems that are not themselves part of the Archive. The dissemination process is a transaction between the CLOCKSS archive and a re-publishing platform; it does not depend on a request from a Consumer nor does it deliver Content Information directly to a Consumer. If any Consumer ever accesses content that was preserved by the CLOCKSS archive, it will be from one of these re-publishing systems. The CLOCKSS archive will not be involved in this transaction, between the eventual Consumer and the re-publishing system, in any way.
+
+>The CLOCKSS Archive delivers services to each of its Interested Parties by providing a sustainable, geographically distributed dark archive that ensures the long-term survival of Web-based, scholarly publications
+
+_this sounds a lot like our idea of what the Perma LOCKSS network will be_
+
+https://clockss.org/clockss/Home
+---------------------------------
 > CLOCKSS has achieved a unique consensus among the world’s leading scholarly publishers, who have agreed to make their content available for free, under a creative commons license, in the event that they can no longer supply it. CLOCKSS is thus the only way to make sure that, no matter what happens in the publishing market, scholarly research will always remain in the hands of scholars.
 > 
 > The archive is distributed across 12 geopolitically and geographically diverse long-lived steward libraries that have agreed to take on an archival role on behalf of the wider international community, in the United States, Canada, Hong Kong, Japan, Australia, Scotland, and growing. CLOCKSS is committed to the very long term: to become a safe haven for scholarly content from all corners of the world, including underserved scholarly communities and those who cannot afford to archive their materials on their own.
