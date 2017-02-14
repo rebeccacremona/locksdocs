@@ -19,8 +19,7 @@ More on this, likely useful for the discussion with our board about the word "ar
 Hardware, Software, Network, Ops
 --------------------------------
 _(Why do they have separate "ingest" machines and "production" machines?)_
-
-### https://documents.clockss.org/index.php?title=CLOCKSS:_Box_Operations
+https://documents.clockss.org/index.php?title=CLOCKSS:_Box_Operations
 
 #### Recommended Specs
 <table class="wikitable" style="margin: 0 auto">
@@ -168,10 +167,13 @@ _I'm not sure we want to do this._
 
 > System Updates: During the lifetime of the CLOCKSS program, the CentOS project will release new major versions of their CentOS operating system (e.g., CentOS 5.x to 6.x). All production CLOCKSS boxes were configured so that its operating system filesystem is independent from its content filesystems. The CentOS upgrade path is then relatively simple: Save the LOCKSS daemon configuration, user accounts and OpenSSH keys, unmount and take offline all content filesystems then effectively reinstall CentOS and the LOCKSS daemon environment and restore the CLOCKSS box's configuration.
 
+
+### https://documents.clockss.org/index.php?title=LOCKSS:_Property_Server_Operations
+All of this sounds like overkill for us. Right?
+
 ### Interesting for a quick glance 
 -  https://documents.clockss.org/index.php?title=CLOCKSS:_Hardware_and_Software_Inventory
 -  https://documents.clockss.org/images/2/22/CLOCKSS_inventory.png
--  https://documents.clockss.org/index.php?title=LOCKSS:_Property_Server_Operations
 
 
 CLOCKSS agreement with hosts
