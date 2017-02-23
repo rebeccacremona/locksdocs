@@ -156,3 +156,14 @@ from [https://fedoraproject.org/wiki/Systemd#Does_chkconfig_command_work_with_sy
 >     chkconfig NetworkManager off
 >
 > chkconfig --list doesn't list systemd services, only Sys V services. The output of chkconfig takes note of this, along with supplying additional information.
+
+Security Profiles
+-----------------
+We saw this in the BIOS, and we didn't know what it was, so we kept the default: none.
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/sect-security-policy-x86.html
+
+> IMPORTANT Applying a security policy is not necessary on all systems. This screen should only be used when a specific policy is mandated by your organization rules or governemnt regulations.
+
+Learning about these various policies:
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/chap-Compliance_and_Vulnerability_Scanning.html
+http://www.open-scap.org/security-policies/choosing-policy/
